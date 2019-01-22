@@ -13,7 +13,7 @@ class TextAnalyzer
   def count_of_vowels
     text.scan(/[aeoui]/).count
   end
-
+  
   def count_of_consonants
     text.scan(/[bcdfghjklmnpqrstvwxyz]/).count
   end
@@ -36,7 +36,6 @@ class TextAnalyzer
         biggest[key] = value
       end
     end
-
     biggest
   end
 end
